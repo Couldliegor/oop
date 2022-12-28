@@ -1,10 +1,10 @@
 public class Car {
-    String brand;
-    String model;
-    float engineVolume;
-    String color;
-    int year;
-    String country;
+    private String brand;
+    private String model;
+    private float engineVolume;
+    private String color;
+    private int year;
+    private String country;
 
     Car(String brand, String model, float engineVolume, String color, int year, String country) {
         if (model == null) {
